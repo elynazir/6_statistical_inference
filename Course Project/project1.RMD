@@ -2,7 +2,7 @@
 title: "project1"
 author: "Ely Nazir"
 date: "October 25, 2015"
-output: html_document
+output: pdf_document
 ---
 
 # Coursera Statistical Inference Course Project
@@ -18,7 +18,7 @@ This project is to investigate the exponential distribution in R and compare it 
 library(ggplot2)
 
 # set constants
-Î» <- 0.2# lambda for rexp
+Î <- 0.2# lambda for rexp
 n <- 40 # number of exponetials
 numberOfSimulations <- 1000 # number of tests
 
@@ -116,7 +116,8 @@ Var_x
 ```
 
 As you can see the standard deviations are very close
-Since variance is the square of the standard deviations, minor differnces will we enhanced, but are still pretty close.
+Since variance is the square of the standard deviations, minor 
+differences will we enhanced, but are still pretty close.
 
 ## Distribution
 
